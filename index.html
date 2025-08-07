@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PhlebPro | Coming Soon</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 2rem;
+    }
+    .logo {
+      font-weight: 700;
+      font-size: 1.8rem;
+    }
+    .logo span {
+      color: #e63946;
+    }
+    .btn-tag {
+      background-color: #fca5a5;
+      color: white;
+      padding: 0.4rem 1rem;
+      border-radius: 9999px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      animation: pulseGlow 2s infinite;
+      transition: transform 0.3s ease-in-out;
+    }
+    .btn-tag:hover {
+      transform: scale(1.1);
+    }
+    @keyframes pulseGlow {
+      0% {
+        box-shadow: 0 0 0px #f87171;
+      }
+      50% {
+        box-shadow: 0 0 15px #f87171;
+      }
+      100% {
+        box-shadow: 0 0 0px #f87171;
+      }
+    }
+    main {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: #555;
+      margin-bottom: 2rem;
+    }
+    .notice {
+      background-color: white;
+      border-radius: 1rem;
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+    .notice h3 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+    .card {
+      background-color: white;
+      border-radius: 1rem;
+      padding: 1.5rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .card h4 {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+    }
+    .card p {
+      margin: 0;
+      font-size: 0.95rem;
+      color: #555;
+    }
+    .cta {
+      background: linear-gradient(to right, #f8d7da, #e3f2fd);
+      padding: 2rem;
+      border-radius: 1rem;
+    }
+    .cta form {
+      margin-top: 1rem;
+    }
+    input[type="email"] {
+      padding: 0.6rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 0.5rem;
+      width: 250px;
+      margin-right: 1rem;
+    }
+    button {
+      padding: 0.6rem 1rem;
+      font-size: 1rem;
+      background-color: #e63946;
+      color: white;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.8rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Phleb<span>Pro</span></div>
+    <div class="btn-tag">Coming Soon</div>
+  </header>
+
+  <main>
+    <h1>Private Blood Testing & Health Coaching</h1>
+    <h2>Expert-led, discreet and personalised care—delivered to your doorstep</h2>
+
+    <section class="notice">
+      <h3>Exciting Updates Coming Soon</h3>
+      <p>We’re expanding PhlebPro to offer integrated, premium mobile phlebotomy services and personalised health coaching in one seamless platform.</p>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h4>Enhanced Phlebotomy Services</h4>
+        <p>Advanced blood collection at your convenience—safe, expert-led, and reliable.</p>
+      </div>
+      <div class="card">
+        <h4>Integrated Health Coaching</h4>
+        <p>Personalised support from trained professionals to guide your wellness journey.</p>
+      </div>
+      <div class="card">
+        <h4>CQC-Compliant Care</h4>
+        <p>Finalising our CQC registration to deliver the highest standard of regulated healthcare.</p>
+      </div>
+      <div class="card">
+        <h4>Seamless Booking</h4>
+        <p>Unified platform to book phlebotomy appointments and coaching sessions—effortlessly.</p>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h3>Stay Updated</h3>
+      <p>Want to be first in line to book once we go live?</p>
+      <form>
+        <input type="email" placeholder="Your email" required />
+        <button type="submit">Notify Me</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 PhlebPro. Professional mobile phlebotomy and health coaching services.
+  </footer>
+</body>
+</html>
